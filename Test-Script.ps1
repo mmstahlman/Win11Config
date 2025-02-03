@@ -2,3 +2,4 @@
 
 Push-Location C:\
 Get-ChildItem
+Pop-Location
