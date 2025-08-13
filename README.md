@@ -6,5 +6,5 @@ Usage:
 $GitScripts = @(
   'https://raw.githubusercontent.com/mmstahlman/Win11Config/refs/heads/main/Test-Script.ps1'
 )
-ForEach ( $Script in $GitScripts ) { Invoke-Expression ( Invoke-WebRequest $ScriptPath ) }
+ForEach ( $ScriptPath in $GitScripts ) { Invoke-Expression ( Invoke-WebRequest $ScriptPath ) }
 ```
