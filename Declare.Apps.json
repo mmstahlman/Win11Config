@@ -1,0 +1,28 @@
+{
+  "apps": [
+    {
+      "name": "Microsoft Edge",
+      "id": "Microsoft.Edge",
+      "source": "winget",
+      "intent": "install"
+    },
+    {
+      "name": "Spotify",
+      "id": "9NCBCSZSJRSB",
+      "source": "msstore",
+      "intent": "install"
+    },
+    {
+      "name": "Notepad++",
+      "id": "Notepad++.Notepad++",
+      "source": "winget",
+      "intent": "install"
+    },
+    {
+      "name": "McAfee Security",
+      "id": "McAfee.Security",
+      "source": "winget",
+      "intent": "uninstall"
+    }
+  ]
+}
